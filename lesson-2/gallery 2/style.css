@@ -1,0 +1,21 @@
+.img-box{
+	column-count: 5;
+	column-gap: 0;
+	column-width: 80%;
+	max-width: 1400px
+	margin:auto;
+}
+.image{
+	max-width: 95%;
+	display: block;
+	transition: 2s;
+}
+.image + .image{
+	margin: 3px auto;
+}
+.image:hover{
+	border: 5px solid gold;
+	transform: translate(5%,-5%)scale(1.1) rotate(10deg);
+	z-index: 10;
+
+}
