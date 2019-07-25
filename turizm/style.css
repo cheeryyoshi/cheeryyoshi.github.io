@@ -1,0 +1,139 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+html,body,main{
+	height: 100%;
+}
+.first{
+	position: relative;
+height: 100vh;
+background: url(img/main_background.jpg);
+background-size: cover;
+background-position: center;
+}
+.first p{
+color: #fff;
+}
+.tourism{
+	width: 100%;
+	text-align: center;
+padding-top: 80px;
+font-size: 21px;
+line-height: 30px;
+}
+.text-container{
+	position: absolute;
+	top: 50%;
+	left: 15%;
+	transform: translateY(-50%); 
+}
+.first-line{
+	font-size: 23px;
+	opacity: : 0.8em;
+}
+.second-line{
+	font-size: 63px;
+}
+.third-line{
+	font-size: 14px;
+	margin-top: 15px;
+	opacity: 0.8px;
+}
+.second{
+	height: 100%;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-ms-align-items: center;
+	align-items: center;
+	align-items:center;
+	justify-content: center; 
+}
+.gallery-container{
+	width: 60%;
+	max-width: 1000px;
+}
+.img-container{
+	width: 100%;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-ms-align-items: flex-start;
+	align-items: flex-start;
+}
+img{
+	display: block;
+	width: 100%;
+	height: auto;
+}
+.img1{
+	width: 55%;
+}
+.wrapper{
+	margin-left: 20px;
+}
+.img2{
+	margin-bottom: 20px;
+}
+.gallery-text{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-ms-align-items: center;
+	align-items: center;
+	margin-bottom: 25px;
+	width: 80%;
+}
+.gallery-header{
+	font-size: 40px;
+	font-weight: bold;
+	margin-right: 20px;
+}
+.gallery-text{
+	font-size: 20px;
+	line-height: : 1;
+}
+.last-container{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-ms-align-items: center;
+	align-items: center;
+	justify-content: center;
+	-webkit-flex-direction: column;
+	-moz-flex-direction: column;
+	-ms-flex-direction: column;
+	-o-flex-direction: column;
+	flex-direction: column;
+	height: 320px;
+	background-image: url(img/footer_bg.jpg);
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center;
+	padding: 15px 20px;
+}
+.last-header{
+	margin-bottom: 20px;
+	color: #fff;
+	border: 1px solid #fff;
+	padding: 15px 25px;
+	font-size: 20px;
+}
+.last-text{
+	padding: 0 20%;
+	color: #fff;
+	font-size: 18px;
+	text-align: center;
+}
