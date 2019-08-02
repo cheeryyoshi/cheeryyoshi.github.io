@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<title>выпускной</title>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/media.css">
+	<link rel="stylesheet" href="css/font-awesome.css">
+	<link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+</head>
+<body>
+	<main class="main">
+		<div class="wrapper">
+		<header class="header">
+			<div class="logo"><img src="img/logo.png" alt=""></div>
+			<nav class="header_menu">
+			<ul class="menu">
+				<li class="link_item"><a href="#">Главная</a></li>
+				<li class="link_item"><a href="#adventures">Приемущества</a></li>
+				<li class="link_item"><a href="#catalog">Каталог</a></li>
+				<li class="link_item"><a href="#contact">Контакты</a></li>
+			</ul>
+			</nav>	
+		</header>
+		<div class="main_text">
+			<h1>что я узнал:</h1>
+			<span>скоро 31 авуста...</span>
+			<a href="#" class="btn">смотреть</a>
+		</div>
+		<div class="main_arrow">
+			<div class="arrow_down">
+				<a href="#"><i class="fa fa-arrow-down" aria-hidden="true"></i></a>
+			</div>		
+		</div>
+	</main>		
+	<section class="adventures" id="adventures">
+		<div class="wrapper">
+			<div class="section_header">
+				<h2>что я узнал</h2>
+			</div>
+			<div class="adventures_content">
+				<div class="item">
+					<i class="fa fa-camera" aria-hidden="true"></i>
+
+					<span>скоро 31 автуста</span>
+				</div>
+				<div class="item">
+					<i class="fa fa-search" aria-hidden="true"></i>
+					<span>об html и css</span>
+				</div>
+				<div class="item">
+					<i class="fa fa-mouse-pointer" aria-hidden="true"></i>
+					<span>мне зачем-то не понравился minecraft</span>
+				</div>
+				<div class="item">
+					<i class="fa fa-window-close" aria-hidden="true"></i>
+					<span>ничего</span>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="catalog" id="catalog">
+		<div class="wrapper">
+			<div class="section_header">
+				<h2>block</h2>
+			</div>
+			<div class="catalog_content">
+				<div class="catalog_item">
+					<div class="catalog_item_header">
+						<h3>товарчеги</h3>
+					</div>
+					<img src="img/vs.jpg" alt="">
+					<p><span>Против minecraft </span>вступайте суда!</p>
+					<p><span>Цена </span>БЕСПЛАТНО</p>
+					<p><span>Про minecraft </span>речи быть не может!</p>
+					<a href="#" class="btn">вступить!</a>
+				</div>
+				<div class="catalog_item">
+					<div class="catalog_item_header">
+						<h3>товарчеги</h3>
+					</div>
+					<img src="img/like.jpg" alt="">
+					<p><span>против minecraft</span>вступайте суда!</p>
+					<p><span>цена</span>БЕСПЛАТНО</p>
+					<p><span>про minecraft  </span>речи быть не может!</p>
+					<a href="#" class="btn">вступить</a>
+				</div>
+				<div class="catalog_item">
+					<div class="catalog_item_header">
+						<h3>товарчеги</h3>
+					</div>
+					<img src="img/img-3.jpg" alt="">
+					<p><span>против minecraft </span>вступайте суда!</p>
+					<p><span>цена </span>БЕСПЛАТНО</p>
+					<p><span>про minecraft </span>речи быть не может!</p>
+					<a href="#" class="btn">вступить!</a>
+				</div>				
+			</div>
+		</div>
+	</section>
+	<section class="contact" id="contact">
+		<div class="wrapper">
+			<div class="section_header">
+				<h2>контакты</h2>
+			</div>
+		</div>
+		<div class="map">
+			<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A0d9a508d3040074c0ef166142cc697f9f39bc8307ff00ce9ad2f45f2f00547e8&amp;width=100%25&amp;height=400&amp;lang=ru_RU&amp;scroll=false"></script>
+			<div class="card">
+				<div class="card_logo">
+					<img src="img/logo.png" alt="">
+				</div>
+				<div class="card_text">
+					<p>qwertyuiop@yandex.ru</p>
+					<p>г.Зад,ул.Йцукенгш д.987</p>
+					<p>+79621234567</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer>
+		<p class="footer_text">&#169;radionbabin2019</p>
+	</footer>
+	<script type="text/javascript">
+		$("a").click(function () {
+		    var elementClick = $(this).attr("href");
+		    var destination = $(elementClick).offset().top;
+		    $('html, body').animate({ scrollTop: destination }, 600);
+		    return false;
+		});
+	</script> 
+</body>
+</html>
